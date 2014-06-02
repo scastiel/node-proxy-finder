@@ -1,0 +1,22 @@
+{
+  "name": "proxy-finder",
+  "version": "1.0.0",
+  "description": "Module to find HTTP proxies lists using Google.",
+  "main": "index.js",
+  "author": "Sébastien Castiel <sebastien.castiel@gmail.com>",
+  "license": "LGPL",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/scastiel/node-proxy-finder.git"
+  },
+  "keywords": [
+        "proxy",
+        "http",
+        "find",
+        "google"
+    ],
+  "dependencies": {
+    "google-scraper": "0.0.5",
+    "request": "^2.36.0"
+  }
+}
